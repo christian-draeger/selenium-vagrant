@@ -1,16 +1,16 @@
 # selenium-vagrant
 
-This is Vagrant file that provides several things to run selenium tests in it or against it (with RemoteWebDriver)
+This project provides a Vagrant file with several pre-configured things to be able to run selenium tests either directly in the box or via remote webdriver. 
 
 ### How to use
 
-  vagrant up
+  `vagrant up`
   
 ### What you get
 
-The vagrant box that will be created mathces the following characteristics:
+The vagrant box fulfills the following characteristics:
 * OS: Windows Server 2019
-* preinstalled stuff needed to run selenium tests
+* preinstalled stuff
   * JDK8
   * several browsers
     * IE11
