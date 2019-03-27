@@ -49,7 +49,7 @@ end
 
 config.vm.provision "shell", path: "scripts/install-chocolatey.ps1", privileged: false
 config.vm.provision "shell", path: "scripts/install-git.ps1", privileged: false
-config.vm.provision "shell", path: "scripts/install-jdk8.ps1", privileged: true
+config.vm.provision "shell", path: "scripts/install-jdk8.ps1", privileged: false
 config.vm.provision "shell", path: "scripts/install-gradle.ps1", privileged: false
 config.vm.provision "shell", path: "scripts/install-maven.ps1", privileged: false
 config.vm.provision "shell", path: "scripts/install-browsers.ps1", privileged: false

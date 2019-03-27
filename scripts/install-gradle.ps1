@@ -1,2 +1,2 @@
-# install git + ssh
+echo "start installing gradle"
 choco install -y gradle
